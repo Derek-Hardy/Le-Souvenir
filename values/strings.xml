@@ -11,11 +11,16 @@
     <string name="stay">Stay</string>
     <string name="visit">Visit</string>
     <string name="shop">Shop</string>
-    <string name="place">Place: </string>
-    <string name="address">Address</string>
+    <string name="place">Place to stay: </string>
+    <string name="address">Address: </string>
     <string name="triplist">Your Trip List</string>
     <string name="luggage">Luggage List</string>
     <string name="diary">Diary Book</string>
     <string name="budget">Budgets</string>
     <string name="title">Le Souvenir</string>
+    <string name="title_activity_shop">Shop</string>
+    <string name="date">Date: </string>
+    <string name="name">Name of Attraction: </string>
+    <string name="buy">Things to buy: </string>
+    <string name="when">When: </string>
 </resources>
