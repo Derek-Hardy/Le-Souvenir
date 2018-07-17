@@ -24,9 +24,17 @@
         <activity
             android:name=".CreateNewTrip"
             android:label="@string/create_new_trip" />
-        <activity android:name=".Accommodation"
-            android:label="@string/accommodation">
-        </activity>
+        <activity
+            android:name=".Accommodation"
+            android:label="@string/accommodation" />
+        <activity
+            android:name=".Stay"
+            android:label="@string/stay" />
+        <activity
+            android:name=".Shop"
+            android:label="@string/shop" />
+        <activity android:name=".Sightseeing" />
+        <activity android:name=".ToBuy"></activity>
     </application>
 
 </manifest>
