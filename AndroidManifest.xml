@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.lesouvenir">
+    package="com.example.le_souvenir">
 
     <application
         android:allowBackup="true"
@@ -11,25 +11,21 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:label="@string/triplist">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreateNewTrip"
-            android:label="@string/create_new_trip">
-
-        </activity>
-        <activity android:name=".Visit"
-            android:label="@string/visit">
-
-        </activity>
+        <activity
+            android:name=".Visit"
+            android:label="@string/visit" />
+        <activity
+            android:name=".CreateNewTrip"
+            android:label="@string/create_new_trip" />
         <activity android:name=".Accommodation"
             android:label="@string/accommodation">
-
         </activity>
     </application>
 
