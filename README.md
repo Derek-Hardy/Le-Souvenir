@@ -37,6 +37,7 @@ ToDo:
 3. Luggage list UI (checkbox items in listView)
 4. My budget list UI
 5. My budget item-creation page & AlertDialog window
+6. Local database for listView items & diary
 
 
 
