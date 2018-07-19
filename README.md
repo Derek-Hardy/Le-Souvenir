@@ -4,7 +4,7 @@ Orbital Project (Gemini)
 Progress:
 ---------------------------------------------------
 
-Layout Design (finished):              (not yet):
+Layout Design (finished):          |   (not yet):
 
 
 1. Your Trip List (MainActivity)   |   (no FAB action to add new item into listView) 
