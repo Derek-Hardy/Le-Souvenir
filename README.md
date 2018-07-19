@@ -24,6 +24,7 @@ Layout Design (finished):          |   (not yet):
 
 5. DrawerLayout for SlidingMenu    |   (no click action for buttons)
                                        (menu presents in MainActivity, Stay/Visit/Shop/Diary list)
+                                       (not yet present in Diary list, Budget list)
 
 
 
