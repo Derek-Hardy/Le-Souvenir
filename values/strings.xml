@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">Le-Souvenir</string>
+    <string name="app_name">Le Souvenir</string>
     <string name="action_settings">Settings</string>
     <string name="create_new_trip">  Create New Trip</string>
     <string name="create_trip_detail">Create your trip details…</string>
     <string name="destination">Destination: </string>
     <string name="duration">Duration:</string>
     <string name="start">Start ! </string>
+    <string name="done">Done !</string>
     <string name="title_activity_staying">Staying</string>
     <string name="accommodation">Accommodation</string>
     <string name="stay">Stay</string>
@@ -23,4 +24,15 @@
     <string name="name">Name of Attraction: </string>
     <string name="buy">Things to buy: </string>
     <string name="when">When: </string>
+    <string name="myDiary">My Diary Books</string>
+    <string name="myBudget">My Budgets</string>
+    <string name="meals">Meals</string>
+    <string name="other">Other</string>
+    <string name="sightseeing">Go Sightseeing</string>
+    <string name="shopping">Go Shopping</string>
+    <string name="toShop">Shopping</string>
+    <string name="diaryButton">Diary</string>
+    <string name="luggageList">Luggage List</string>
+    <string name="thatsit">That is it! </string>
+    <string name="createDiary">My New Diary</string>
 </resources>
