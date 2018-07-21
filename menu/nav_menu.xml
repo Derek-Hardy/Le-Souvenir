@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/trip_list"
+            android:icon="@drawable/ic_flight"
+            android:title="@string/triplist" />
+        <item android:id="@+id/luggage_list"
+            android:icon="@drawable/ic_luggage"
+            android:title="@string/luggage" />
+        <item android:id="@+id/diary"
+            android:icon="@drawable/ic_diary"
+            android:title="@string/diary" />
+        <item android:id="@+id/budget"
+            android:icon="@drawable/ic_budget"
+            android:title="@string/budget" />
+
+    </group>
+
+</menu>
