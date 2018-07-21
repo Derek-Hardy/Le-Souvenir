@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarShop"
+                android:id="@+id/toolbarLuggage"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
@@ -27,71 +27,30 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#68d2e7"
-                android:paddingStart="10dp"
-                android:text="Get your shopping cart ready …"
-                android:textColor="#FFF"
-                android:layout_weight="1"
+                android:layout_gravity=""
+                android:text="Let's be prepared !"
                 android:textSize="16sp"
-                android:gravity="top"/>
+                android:paddingStart="10dp"
+                android:textColor="#FFF"
+                android:background="#68d2e7"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         </android.support.design.widget.AppBarLayout>
 
         <ListView
-            android:id="@+id/shop_list"
+            android:id="@+id/luggage_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabShop"
+            android:id="@+id/fabLuggage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="60dp"
+            android:layout_margin="16dp"
             android:src="@drawable/ic_add"
             app:elevation="8dp"/>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_gravity="bottom"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:id="@+id/buttonStay"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/stay"
-                android:layout_weight="1"
-                android:textSize="18sp" />
-            <Button
-                android:id="@+id/buttonVisit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/visit"
-                android:layout_weight="1"
-                android:textSize="18sp"
-                android:layout_marginLeft="-8dp"/>
-            <Button
-                android:id="@+id/buttonShop"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/shop"
-                android:layout_weight="1"
-                android:textSize="18sp"
-                android:layout_marginLeft="-8dp"/>
-            <Button
-                android:id="@+id/buttonDiary"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/diaryButton"
-                android:layout_weight="1"
-                android:textSize="18sp"
-                android:layout_marginLeft="-8dp"/>
-
-        </LinearLayout>
 
     </android.support.design.widget.CoordinatorLayout>
 
@@ -102,5 +61,6 @@
         android:layout_gravity="start"
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/nav_header" />
+
 
 </android.support.v4.widget.DrawerLayout>

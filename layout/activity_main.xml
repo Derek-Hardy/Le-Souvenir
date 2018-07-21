@@ -7,15 +7,15 @@
     android:layout_height="match_parent">
 
     <android.support.design.widget.CoordinatorLayout
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarOne"
+                android:id="@+id/toolbarMain"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
@@ -32,7 +32,7 @@
                 android:textSize="16sp"
                 android:paddingStart="10dp"
                 android:textColor="#FFF"
-                android:background="#83827e"
+                android:background="#68d2e7"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         </android.support.design.widget.AppBarLayout>

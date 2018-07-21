@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarOne"
+                android:id="@+id/toolbarStay"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
@@ -27,7 +27,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#83827e"
+                android:background="#68d2e7"
                 android:paddingStart="10dp"
                 android:text="Plan your accommodation details …"
                 android:textColor="#FFF"
@@ -44,7 +44,7 @@
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabAccom"
+            android:id="@+id/fabStay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
@@ -60,12 +60,14 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/buttonStay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/stay"
                 android:layout_weight="1"
                 android:textSize="18sp" />
             <Button
+                android:id="@+id/buttonVisit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/visit"
@@ -73,9 +75,18 @@
                 android:textSize="18sp"
                 android:layout_marginLeft="-8dp"/>
             <Button
+                android:id="@+id/buttonShop"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/shop"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:layout_marginLeft="-8dp"/>
+            <Button
+                android:id="@+id/buttonDiary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diaryButton"
                 android:layout_weight="1"
                 android:textSize="18sp"
                 android:layout_marginLeft="-8dp"/>

@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <android.support.v7.widget.Toolbar
-                android:id="@+id/toolbarShop"
+                android:id="@+id/toolbarDiary"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
@@ -27,24 +27,24 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#68d2e7"
-                android:paddingStart="10dp"
-                android:text="Get your shopping cart ready …"
-                android:textColor="#FFF"
-                android:layout_weight="1"
+                android:layout_gravity=""
+                android:text="All your memories are here …"
                 android:textSize="16sp"
-                android:gravity="top"/>
+                android:paddingStart="10dp"
+                android:textColor="#FFF"
+                android:background="#68d2e7"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         </android.support.design.widget.AppBarLayout>
 
         <ListView
-            android:id="@+id/shop_list"
+            android:id="@+id/diary_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fabShop"
+            android:id="@+id/fabDiary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
@@ -102,5 +102,6 @@
         android:layout_gravity="start"
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/nav_header" />
+
 
 </android.support.v4.widget.DrawerLayout>
