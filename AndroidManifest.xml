@@ -4,15 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/app_icon"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/triplist">
-            <intent-filter>
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -20,7 +22,8 @@
         </activity>
         <activity
             android:name=".Visit"
-            android:label="@string/visit" />
+            android:label="@string/visit"
+            android:launchMode="singleTask" />
         <activity
             android:name=".CreateNewTrip"
             android:label="@string/create_new_trip" />
@@ -29,12 +32,35 @@
             android:label="@string/accommodation" />
         <activity
             android:name=".Stay"
-            android:label="@string/stay" />
+            android:label="@string/stay"
+            android:launchMode="singleTask" />
         <activity
             android:name=".Shop"
-            android:label="@string/shop" />
-        <activity android:name=".Sightseeing" />
-        <activity android:name=".ToBuy"></activity>
+            android:label="@string/shop"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Sightseeing"
+            android:label="@string/sightseeing" />
+        <activity
+            android:name=".ToBuy"
+            android:label="@string/shopping" />
+        <activity
+            android:name=".DiaryBook"
+            android:label="@string/myDiary"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MyBudget"
+            android:label="@string/myBudget"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".InputBudget"
+            android:label="@string/myBudget" />
+        <activity
+            android:name=".LuggageList"
+            android:label="@string/luggageList"
+            android:launchMode="singleTask" />
+        <activity android:name=".WriteDiary"
+            android:label="@string/createDiary"></activity>
     </application>
 
 </manifest>
